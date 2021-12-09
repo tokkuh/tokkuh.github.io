@@ -15,10 +15,12 @@
      var today = new Date() ;
      var weekday = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] ;
      document.getElementById(weekday[today.getDay()]).style.display="block";}
+     document.getElementById("hiduke").innerHTML = ((today.getMonth()+1) + '月' + today.getDate() + '日')
     </script>
   </head>
   <body onload="Settoday();">
-    <h1>時間割！</h1>
+    <h1>時間割！</h1><br>
+    <div class="hiduke"></div><br>
     <div id="Sun" style="display:none;">
   今日は学校は<strong>お休み</strong>です！<br>
   明日は<strong>早朝:数学 世界史 数学 コミュ英 コミュ英 国語 化学</strong>です！
