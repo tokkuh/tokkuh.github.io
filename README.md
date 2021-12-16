@@ -1,2 +1,4 @@
 # tokkuh.github.io
-Galaxy Z Fold3が欲しいです
+<body>
+<strong>Galaxy Z Fold3</strong>が欲しいです
+</body>
