@@ -1,0 +1,13 @@
+body{font-size: 3vh;
+  overflow-wrap: break-word;
+  font-family: "游ゴシック", "YuGothic", "メイリオ", meiryo, sans-serif;
+  background-color: #ffffd1;
+  margin: 30px;
+
+}
+
+h1{border-bottom:#ffd1a3 solid 10px;
+  display: inline-block;
+}
+
+strong,a{color:#ff7f7f;}
