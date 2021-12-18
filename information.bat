@@ -1,6 +1,6 @@
 @echo off
-start "score-up" "\\10.11.36.16\‹¤—LƒtƒHƒ‹ƒ_\joho\1-10\03-ƒXƒRƒAƒAƒbƒvƒV[ƒg\ƒXƒRƒAƒAƒbƒvƒV[ƒg -  (27).xlsx"
+start "score-up" "\\10.11.36.16\å…±æœ‰ãƒ•ã‚©ãƒ«ãƒ€\joho\1-10\03-ã‚¹ã‚³ã‚¢ã‚¢ãƒƒãƒ—ã‚·ãƒ¼ãƒˆ\ã‚¹ã‚³ã‚¢ã‚¢ãƒƒãƒ—ã‚·ãƒ¼ãƒˆ -  (27).xlsx"
 start explorer.exe
 start "GoldFingerSchool" "C:\Program Files (x86)\bcom\Gold Finger School\GFStart.EXE"
 start microsoft-edge:http://www.hauru110.tk/dev
-rem call Teams‚ğEdge‚Å(ƒvƒ‰ƒCƒx[ƒgƒ‚[ƒh).bat
+rem call Teamsã‚’Edgeã§(ãƒ—ãƒ©ã‚¤ãƒ™ãƒ¼ãƒˆãƒ¢ãƒ¼ãƒ‰).bat
