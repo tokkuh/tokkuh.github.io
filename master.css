@@ -3,6 +3,13 @@ body{font-size: 3vh;
   font-family: "游ゴシック", "YuGothic", "メイリオ", meiryo, sans-serif;
   background-color: #ffffd1;
   margin: 30px;
+background-image:
+repeating-linear-gradient(
+45deg,
+#ccc, #ccc 5px,
+reba(0 0 0 / 0) 0,
+rgba(0 0 0 / 0) 10px
+);
 
 }
 
@@ -11,13 +18,3 @@ h1{border-bottom:#ffd1a3 solid 10px;
 }
 
 strong,a{color:#ff7f7f;}
-
-.background {
-background-image:
-repeating-linear-gradient(
-45deg,
-#ccc, #ccc 5px,
-reba(0 0 0 / 0) 0,
-rgba(0 0 0 / 0) 10px
-);
-}
