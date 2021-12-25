@@ -16,7 +16,7 @@ strong,a{color:#ff7f7f;}
 background-image:
 repeating-linear-gradient(
 45deg,
-#cCC, #ccc 5px,
+#ccc, #ccc 5px,
 reba(0 0 0 / 0) 0,
 rgba(0 0 0 / 0) 10px
 );
