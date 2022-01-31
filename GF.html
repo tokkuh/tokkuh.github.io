@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang=ja dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Gold Finger School仕様書</title>
+    <meta name="description" content="てきとーに作ったGF仕様書。情報教室で授業中に制作しました（は？）">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="master.css">
+  <body>
+
+   <h1>Gold Finger School仕様書</h1>
+
+   <h2>Gold Finger Schoolとは？</h2>
+<strong><ul>
+     <li>ローマ字を知らない子ども達が</li>
+     <li>高校生・大学生・社会人の職業訓練として</li>
+     <li>生涯学習としてのシニアまで</li>
+</ul></strong>
+     を念頭として作られたタイピングソフト。<br>
+     練習記録の一元管理ができ、一覧表示などが容易にできる。<br>
+     (引用:<a href="http://www.n-bcom.co.jp/goldfinger_school/index.htm" target="_blank" >Gold Finger School 2021</a>より)
+
+   <h2>このサイトについて</h2>
+   主にセーブデータの仕様やそのデータがある場所についての解説です。<strong>悪用厳禁！</strong>
+
+   <h2>共通</h2>
+     SHIFT-JIS(ANSI)でファイルを保存してください。<br>
+     大きすぎる数字を扱うとエラーになる(未検証)。<br>
+     評価のデータは　0→(無し)、1→可、2→良、3→優、4→弱　である。<br>
+     基本的に時間関連の単位は秒であり、小数第一位まで記される。<br>
+     ソフト本体はPC内にあるが、セーブデータはGFフォルダ内にある。（次項で解説）
+
+   <h2>GFフォルダの場所</h2>
+     共有フォルダ(Zドライブ)内に隠しフォルダとして"GF"フォルダがある。<br>
+     よって、エクスプローラーの"表示"から"隠しファイル"にチェックを入れるとファイルにアクセスできるようになる。<br>
+     よくわからない人は<a href="" target="_blank" >こちら</a>をダウンロードして実行してください。(工事中)
+   <h2>GF>(自分のID)フォルダ内</h2>
+   
+     <h3>EXEC○○.DAT</h3>
+       練習した日時、出題文字数、ミス数、かかった時間、評価、何回目の練習かが載っている。
+
+     <h3>EXEC○○.TTL</h3>
+       何回練習したか、総練習時間が載っている。EXEC○○.DATと練習した回数の矛盾が生じた場合エラーになる。
+
+     <h3>OPTION.DAT</h3>
+       GF内で設定したオプションが記録されている。詳しくは未検証なため不明。
+
+     <h3>PUBLIC.DAT</h3>
+       総練習時間、全練習のベストスコアの評価(10桁)が記されている。
+
+   <h2>GF>(自分のID).PAS</h2>
+     自分のIDに関連付けられた名前、パスワードが記されている。
+  </body>
