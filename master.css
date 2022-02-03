@@ -1,4 +1,4 @@
-body{font-size: 3vh;
+﻿body{font-size: 3vh;
   overflow-wrap: break-word;
   font-family: "游ゴシック", "YuGothic", "メイリオ", meiryo, sans-serif;
   background-color: #ffffd1;
@@ -17,4 +17,6 @@ h1,h2,h3{border-bottom:#ffd1a3 solid 10px;
   display: inline-block;
 }
 
-strong,a{color:#ff7f7f;}
+strong,a,th{color:#ff7f7f;}
+table{border-collapse: collapse;
+border-left:1px solid ##ffd1a3;}
