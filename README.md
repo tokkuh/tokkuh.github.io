@@ -1,4 +1,5 @@
 # tokkuh.github.io
 <body>
-<strong>Galaxy Z Fold3</strong>が欲しいです
+<b>見に来るな</b><br>
+帰れ
 </body>
