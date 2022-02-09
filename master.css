@@ -1,4 +1,4 @@
-﻿body{font-size: 3vh;
+body{font-size: 3vh;
   overflow-wrap: break-word;
   font-family: "游ゴシック", "YuGothic", "メイリオ", meiryo, sans-serif;
   background-color: #ffffd1;
@@ -17,7 +17,7 @@ display: inline-block;}
 
 strong,a,th{color:#ff7f7f;}
 
-table{border-collapse: collapse;
+.table{border-collapse: collapse;
 width: 100%;
 min-width: 2000px;
 border: solid 3px #ffd1a3;
@@ -30,3 +30,10 @@ text-align: center;}
 th,td {
   border: dashed 2px #ffd1a3;
 }
+
+.hanni{border-collapse: collapse;
+width: 100%;
+min-width: 100px;
+max-width: 700px;
+border: solid 3px #ffd1a3;
+text-align: center;}
