@@ -2,14 +2,14 @@
 <body>
 <b>見に来るな</b><br>
 帰れ
-<form method=get action="http://www.google.co.jp/search">
-<tr><td>
-<a href="http://www.google.co.jp/">
-<img src="http://www.google.com/logos/Logo_40wht.gif" border="0" alt="Google" align="absmiddle"></a>
-<input type=text name=q size=31 maxlength=255 value="">
-<input type=hidden name=ie value=Shift_JIS>
-<input type=hidden name=oe value=Shift_JIS>
-<input type=hidden name=hl value="ja">
-<input type=submit name=btnG value="Google 検索">
-</td></tr>
-</form> </body>
+
+<input type="text" id="msg" size="50">
+<input class="button" type="button" value="値を表示します" onclick="alert_msg()">
+<script>
+    function alert_msg() {
+      var message = document.getElementById('msg').value;
+      alert(message);
+    }
+</script>
+
+</body>
