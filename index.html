@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>謎のページ</title>
-    <meta name="description" content="てきとーに作ったページ。情報教室で授業中に制作しました（は？）">
+    <meta name="description" content="てきとーに、やる気なしに作ったページ。時間割が見れます。">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="master.css">
@@ -20,51 +20,57 @@
   </head>
   <body onload="Settoday();">
     <header>
-      <h1 class="headline">
-     謎のページ
-   </h1>
+      <h1 class="headline">謎のページ </h1>
    <ul class="nav-list">
      <li class="nav-list-item"><a href="http://www.naha-h.open.ed.jp" target="_blank"><strong>那覇高校</strong></a></li>
      <li class="nav-list-item"><a href="https://sway.office.com/wqE3V8FR97zu4QEq" target="_blank"><strong>健康観察入力</strong></a></li>
+     <li class="nav-list-item"><a href="https://www.instagram.com/naha_seitokai/" target="_blank"><strong>那覇高インスタ</strong></a></li>
+     <li class='nav-list-item'><a href="https://github.com/tokkuh/tokkuh.github.io/" target="_blank"><strong>ホームページのレポジトリ</strong></a></li>
    </ul>
     </header>
+
+    <h2>なにこれ</h2><br>
+    ただのやる気が全くないサイトです。<br>
+    時間割が見れます。<br>
+    画像を使っていないのである程度軽いのが取り柄？<br>
+
     <h2>時間割</h2><br>
-完全にやる気を無くしているサイト。
     <script>
     var today = new Date();
       document.getElementById("hiduke").innerHTML = "今は"+(today.getMonth()+1)+"月"+today.getDate()+"日"+today.getHours()+"時"+today.getMinutes()+"分です！"
     </script>
 
-    <div id="Sun" style="display:none;">
-      <div class="table-wrap">
-       <table class="table">
-          <tr>
-            <th></th>
-            <th>早朝講座</th>
-            <th>1時間目</th>
-            <th>2時間目</th>
-            <th>3時間目</th>
-            <th>4時間目</th>
-            <th>5時間目</th>
-            <th>6時間目</th>
-            <th>7時間目</th>
-          </tr>
-          <tr>
-            <td>月曜日</td>
-            <td>数学</td>
-            <td>世界史</td>
-            <td>数学</td>
-            <td colspan="2">コミュ英</td>
-            <td>国語</td>
-            <td>化学</td>
-            <td></td>
-          </tr>
-        </table>
-      </div>
+<div id="Sun" style="display:none;">
+<div class="table-wrap">
+  <table class="table">
+    <tr>
+      <th></th>
+      <th>早朝講座</th>
+      <th>1時間目</th>
+      <th>2時間目</th>
+      <th>3時間目</th>
+      <th>4時間目</th>
+      <th>5時間目</th>
+      <th>6時間目</th>
+      <th>7時間目</th>
+    </tr>
+    <tr>
+      <td>明日</td>
+      <td>なし</td>
+      <td>現古B</td>
+      <td>理基D</td>
+      <td>体IIB</td>
+      <td>英2B</td>
+      <td>政経</td>
+      <td>数IIB</td>
+      <td>なし</td>
+    </tr>
+  </table>
+</div>
 </div>
 
 <div id="Mon" style="display:none;">
-  <div class="table-wrap">
+<div class="table-wrap">
  <table class="table">
     <tr>
       <th></th>
@@ -79,24 +85,24 @@
     </tr>
     <tr>
       <td>今日</td>
-      <td>数学</td>
-      <td>世界史</td>
-      <td>数学</td>
-      <td colspan="2">コミュ英</td>
-      <td>国語</td>
-      <td>化学</td>
-      <td></td>
+      <td>なし</td>
+      <td>現古B</td>
+      <td>理基D</td>
+      <td>体IIB</td>
+      <td>英2B</td>
+      <td>政経</td>
+      <td>数IIB</td>
+      <td>なし</td>
     </tr>
     <tr>
       <td>明日</td>
-      <td>英語</td>
-      <td>体育</td>
-      <td>数学</td>
-      <td>化学</td>
-      <td>数学</td>
-      <td>世界史</td>
-      <td>国語</td>
-      <td></td>
+      <td>なし</td>
+      <td colspan="2">芸IIB</td>
+      <td>数IIB</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>理IID</td>
+      <td>なし</td>
     </tr>
   </table>
 </div>
@@ -118,22 +124,22 @@
     </tr>
     <tr>
       <td>今日</td>
-      <td>英語</td>
-      <td>体育</td>
-      <td>数学</td>
-      <td>化学</td>
-      <td>数学</td>
-      <td>世界史</td>
-      <td>国語</td>
-      <td></td>
+      <td>なし</td>
+      <td colspan="2">芸IIB</td>
+      <td>数IIB</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>理IID</td>
+      <td>なし</td>
     </tr>
     <tr>
       <td>明日</td>
-      <td>国語</td>
-      <td>情報</td>
-      <td>数学</td>
-      <td colspan="2">音楽</td>
-      <td>体育</td>
+      <td>なし</td>
+      <td>地理B</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>体IIB</td>
+      <td>現古B</td>
       <td>LHR</td>
       <td>総学</td>
     </tr>
@@ -158,31 +164,32 @@
     </tr>
     <tr>
       <td>今日</td>
-      <td>国語</td>
-      <td>情報</td>
-      <td>数学</td>
-      <td colspan="2">音楽</td>
-      <td>体育</td>
+      <td>なし</td>
+      <td>地理B</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>体IIB</td>
+      <td>現古B</td>
       <td>LHR</td>
       <td>総学</td>
     </tr>
     <tr>
       <td>明日</td>
-      <td>演習</td>
-      <td>英語表現</td>
-      <td>国語</td>
-      <td>数学</td>
-      <td>コミュ英</td>
-      <td>生物</td>
-      <td>保健</td>
-      <td></td>
+      <td>なし</td>
+      <td>体IIB</td>
+      <td>理IID</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>地理B</td>
+      <td>現古B</td>
+      <td>なし</td>
     </tr>
   </table>
 </div>
 </div>
 
 <div id="Thu" style="display:none;">
-  <div class="table-wrap">
+<div class="table-wrap">
  <table class="table">
     <tr>
       <th></th>
@@ -197,23 +204,24 @@
     </tr>
     <tr>
       <td>今日</td>
-      <td>演習</td>
-      <td>英語表現</td>
-      <td>国語</td>
-      <td>数学</td>
-      <td>コミュ英</td>
-      <td>生物</td>
-      <td>保健</td>
-      <td></td>
+      <td>なし</td>
+      <td>体IIB</td>
+      <td>理IID</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>地理B</td>
+      <td>現古B</td>
+      <td>なし</td>
     </tr>
     <tr>
       <td>明日</td>
-      <td>数学</td>
-      <td>情報</td>
-      <td>英語表現</td>
-      <td colspan="2">家庭科</td>
-      <td>生物</td>
-      <td>国語</td>
+      <td>なし</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>政経</td>
+      <td>理基D</td>
+      <td>保健</td>
+      <td>現古B</td>
       <td></td>
     </tr>
   </table>
@@ -235,24 +243,26 @@
       <th>7時間目</th>
     </tr>
     <tr>
-      <td>今日</td>
-      <td>数学</td>
-      <td>情報</td>
-      <td>英語表現</td>
-      <td colspan="2">家庭科</td>
-      <td>生物</td>
-      <td>国語</td>
+      <td>明日</td>
+      <td>なし</td>
+      <td>英2B</td>
+      <td>数IIB</td>
+      <td>政経</td>
+      <td>理基D</td>
+      <td>保健</td>
+      <td>現古B</td>
       <td></td>
     </tr>
     <tr>
       <td>月曜日</td>
-      <td>数学</td>
-      <td>世界史</td>
-      <td>数学</td>
-      <td colspan="2">コミュ英</td>
-      <td>国語</td>
-      <td>化学</td>
-      <td></td>
+      <td>なし</td>
+      <td>現古B</td>
+      <td>理基D</td>
+      <td>体IIB</td>
+      <td>英2B</td>
+      <td>政経</td>
+      <td>数IIB</td>
+      <td>なし</td>
     </tr>
   </table>
 </div>
@@ -274,36 +284,28 @@
       </tr>
       <tr>
         <td>月曜日</td>
-        <td>数学</td>
-        <td>世界史</td>
-        <td>数学</td>
-        <td colspan="2">コミュ英</td>
-        <td>国語</td>
-        <td>化学</td>
-        <td></td>
+        <td>なし</td>
+        <td>現古B</td>
+        <td>理基D</td>
+        <td>体IIB</td>
+        <td>英2B</td>
+        <td>政経</td>
+        <td>数IIB</td>
+        <td>なし</td>
       </tr>
     </table>
   </div>
 </div>
-<button type="button" name="button" onclick="alert('見せてくれるとでも思ったのか？www嘘ですごめんなさい')">他の曜日の時間割</button><br>
+<button type="button" name="button" onclick="alert('月曜日\n現古B,理基D,体IIB,英2B,政経,数IIB\n\n火曜日\n芸IIB,芸IIB,数IIB,英2B,数IIB,理IID\n\n水曜日\n地理B,英2B,数IIB,体IIB,現古B,LHR,総学\n\n木曜日\n体IIB,理IID,英2B,数IIB,地理B,現古B\n\n金曜日\n英2B,数IIB,政経,理基D,保健,現古B')">他の曜日の時間割</button><br>
 
-<h2>リンクまとめ</h2><br>
-<div class="sample1">
-<input type="checkbox" id="sp01"><label for="sp01"></label>
-<div>
-  <a href="http://www.naha-h.open.ed.jp" target="_blank"><strong>那覇高校のホームページ</strong></a><br>
-  <a href="https://sway.office.com/wqE3V8FR97zu4QEq" target="_blank"><strong>健康観察入力</strong></a><br>
-  <a href="https://www.instagram.com/naha_seitokai/" target="_blank"><strong>那覇高校公式Instagram</strong></a><br>
-  <a href="http://www.hauru110.tk/GF.html" target="_blank"><strong>Gold Finger仕様書</strong></a><br>
-  <a href="http://www.hauru110.tk/information.bat" target='_blank'><strong>情報の授業用batファイル</strong></a><br>
-  <a href="https://github.com/tokkuh/tokkuh.github.io/" target="_blank"><strong>ホームページのレポジトリ</strong></a><br>
-</div>
-</div>
 <h2>課題</h2>
 <ul>
-  <li>社会と情報 (formsからの課題)</li>
   <li>FLEX予習ノートLesson9,Lesson10 （p.89-108)</li>
   <li>スタディーサポート活用BOOK</li>
 </ul>
-  </body>
+</body>
+
+<footer>
+<p>© nanka soreppoiyatu by Harry.</p>
+</footer>
 </html>
